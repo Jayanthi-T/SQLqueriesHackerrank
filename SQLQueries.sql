@@ -18,7 +18,7 @@ select * from city where countrycode='JPN';
 select city,state from station;
 
       Query a list of CITY names from STATION with even ID numbers only. You may print the results in any order, but must exclude duplicates from your answer.
-SELECT distinct city
+SELECT distinct city   
 FROM station where (id%2)=0;
 
     Let  N be the number of CITY entries in STATION, and let N' be the number of distinct CITY names in STATION; query the value of  from N-N'
