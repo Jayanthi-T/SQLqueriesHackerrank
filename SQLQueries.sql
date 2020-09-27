@@ -14,7 +14,7 @@ select * from city where ID=1661;
     Query all attributes of every Japanese city in the CITY table. The COUNTRYCODE for Japan is JPN
 select * from city where countrycode='JPN';
 
-     Query a list of CITY and STATE from the STATION table.
+     Query a list of CITY and STATE from the STATION table.   
 select city,state from station;
 
       Query a list of CITY names from STATION with even ID numbers only. You may print the results in any order, but must exclude duplicates from your answer.
